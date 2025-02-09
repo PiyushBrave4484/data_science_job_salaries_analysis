@@ -5,7 +5,7 @@ Welcome to my **Data Science Job Salaries Analysis** project! This project explo
 ---
 ## 🔗 Live Demo
 
-[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-blue)]https://datasciencejobsalariesanalysis-fyxptxm8gnktwajw6x2yvq.streamlit.app/
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-blue)](https://datasciencejobsalariesanalysis-fyxptxm8gnktwajw6x2yvq.streamlit.app/)
 
 ---
 
@@ -60,7 +60,7 @@ Welcome to my **Data Science Job Salaries Analysis** project! This project explo
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/data_science_job_salaries_analysis.git
+git clone https://github.com/PiyushBrave4484/data_science_job_salaries_analysis.git
 
 # Navigate to project folder
 cd data_science_job_salaries_analysis
@@ -88,7 +88,7 @@ streamlit run project.py
 ---
 ## 📢 **Connect with Me**
 📧 **Email:** piyushkadam4484@gmail.com
-🔗 **LinkedIn:** www.linkedin.com/in/piyushkadam4
+🔗 **LinkedIn:** [Piyush Kadam](https://www.linkedin.com/in/piyushkadam4/)
 🐙 **GitHub:** https://github.com/PiyushBrave4484
 
 ---
