@@ -43,7 +43,7 @@ elif choice == "Power BI file and dashboard":
 
     # Correcting filename typo
     image6 = Image.open("data_science_BI_dasbhboard.png")  # Fixed filename
-    st.image(image6, caption="Sample Dashboard", width=600)
+    st.image(image6, caption="Sample Dashboard", width=800)
 
     st.subheader("Download Power BI pbix File")
     with open("data_science_salaries_project.pbix", "rb") as f:
