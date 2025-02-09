@@ -1,47 +1,97 @@
-# data_science_job_salaries_analysis
-I have done analysis over data scientist salaries data.
+# 📊 Data Science Job Salaries Analysis
 
+Welcome to my **Data Science Job Salaries Analysis** project! This project explores salary trends in the data science domain using **Python, MySQL, and Power BI**. It also includes a **Streamlit web app** to showcase the insights interactively. 🚀
 
-Data Science Job Salaries Data Analysis
-Using Python, MySql and PowerBI
-Steps Followed-
+---
+## 🔗 Live Demo
 
-INITIAL STEPS :- Connection , cleaning and preprocessing.
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-blue)]https://datasciencejobsalariesanalysis-fyxptxm8gnktwajw6x2yvq.streamlit.app/
 
-1)	Download data science job salary dataset from Kaggle.
-2)	Create a database in MYSQL and imported dataset into it.
-3)	In jupyter notebook imported necessary libraries( numpy ,pandas,matplotlib , seaborn).
-4)	In jupyter notebook establish connection with MYSQL database where dataset is present.
-5)	Data analysing through functions like info(), describe() , isnull().sum() etc.
-6)	Outliers identification over numerical columns using box plot.
-7)	Use .describe() to check statistical values
-8)	Now connect mysql data base with powerbi
+---
 
-MIDDLE STEPS :- Visualization
+## 🛠 Tech Stack
+- **Python** 🐍 (Pandas, Matplotlib, Seaborn, Streamlit)
+- **MySQL** 🛢️ (Database Storage & Queries)
+- **Power BI** 📊 (Data Visualization)
 
-1)	Use Python for advanced problem statement which include complex statistical operations (I.e. Box plot) 
-                	Heat map showing correlation between numerical columns.
-                	Line chart showing salary growth since year 2020 by experience level.
-                	Box plot showing salary distribution by remote work ratio 2.
+---
 
-2)	Use PowerBI to visualize Basic to Intermediate problem statements
+## 📂 Steps Followed
 
-                	Pie chart showing avg. salary by company size
-                	Map chart showing top 5 locations by avg. salary
-                	Slicer for job title, experience level, work year
-                	Bubble chart showing avg. remote ratio vs experience level with bubble size of avg. salary
-                	Column chart for top 10 job titles by avg. salary
+### 🏁 **Initial Steps – Data Connection & Preprocessing**
+✅ **1.** Download the **Data Science Job Salaries** dataset from [Kaggle](https://www.kaggle.com/datasets/)
+✅ **2.** Create a **MySQL database** and import the dataset into it
+✅ **3.** Load necessary libraries in **Jupyter Notebook** (`numpy`, `pandas`, `matplotlib`, `seaborn`)
+✅ **4.** Establish a **connection with MySQL** from Python
+✅ **5.** Perform **data analysis** using:
+   - `info()`, `describe()`, `isnull().sum()` 📊
+   - **Box plots** to detect outliers 📦
+   - **Statistical insights** using `.describe()`
+✅ **6.** Connect MySQL database with **Power BI**
 
+---
+### 📊 **Middle Steps – Data Visualization**
 
-FINAL STEPS:- Streamlit app and documentation
+#### 🔹 **Python-based Visualizations**
+📌 **1. Heatmap** showing correlation between numerical columns 🔥
+📌 **2. Line chart** showing salary growth since **2020**, segmented by **experience level** 📈
+📌 **3. Box plot** showing salary distribution by **remote work ratio** 📦
 
-1)	Import streamlit library 
-2)	create user interface code
-3)	Create a separate project.app file in the same directory for Streamlit app
-4)	Use a simple menu to showcase charts or dashboard
+#### 🔹 **Power BI-based Visualizations**
+📊 **1. Pie Chart** - Average salary by company size 🍕
+📊 **2. Map Chart** - Top **5 locations** by average salary 🌍
+📊 **3. Slicer** - Filter by **job title, experience level, work year** 🎛️
+📊 **4. Bubble Chart** - **Avg. Remote Ratio vs Experience Level**, sized by avg. salary 🎈
+📊 **5. Column Chart** - **Top 10 job titles by average salary** 📊
 
-                	Use Home, Python charts > Various charts, Power BI dashboard, and file 	        
-                                   Sample Dashboard		
-           		                     Pbix file
+---
+### 🎨 **Final Steps – Streamlit App Deployment**
+✅ **1.** Import **Streamlit** library
+✅ **2.** Create an **interactive UI** using Streamlit components
+✅ **3.** Develop a `project.py` file to structure the app 🖥️
+✅ **4.** Implement a **simple menu navigation**:
+   - 🏠 **Home** - Project introduction
+   - 📊 **Python Charts** - Various visualizations
+   - 📈 **Power BI Dashboard** - Interactive Power BI report
+   - 📂 **Download Section** - Get the Power BI `.pbix` file
 
+---
+## 🚀 How to Run This Project Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_GITHUB_USERNAME/data_science_job_salaries_analysis.git
+
+# Navigate to project folder
+cd data_science_job_salaries_analysis
+
+# Install required Python packages
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run project.py
+```
+
+---
+## 📜 **Project Structure**
+```
+📁 data_science_job_salaries_analysis
+│-- 📄 project.py  # Main Streamlit app
+│-- 📄 requirements.txt  # Required Python libraries
+│-- 📄 data_science_salaries.ipynb  # Jupyter Notebook with analysis
+│-- 📊 Power BI Dashboard.pbix  # Power BI File
+│-- 📂 images/  # Folder containing visualizations
+│-- 📂 data/  # Dataset files
+│-- 📄 README.md  # Project documentation (this file!)
+```
+
+---
+## 📢 **Connect with Me**
+📧 **Email:** piyushkadam4484@gmail.com
+🔗 **LinkedIn:** www.linkedin.com/in/piyushkadam4
+🐙 **GitHub:** https://github.com/PiyushBrave4484
+
+---
+
+### ⭐ **If you liked this project, don't forget to give it a star on GitHub!** ⭐
 
