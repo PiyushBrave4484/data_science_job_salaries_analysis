@@ -41,8 +41,8 @@ elif choice == "Power BI file and dashboard":
     st.title("Power BI file and dashboard")
     st.subheader("Sample Dashboard")
 
-    # Fixing typo in filename
-    image6 = Image.open("data_science_BI_dashboard.png")
+    # Correcting filename typo
+    image6 = Image.open("data_science_BI_dashboard.png")  # Fixed filename
     st.image(image6, caption="Sample Dashboard", width=600)
 
     st.subheader("Download Power BI pbix File")
@@ -53,3 +53,4 @@ elif choice == "Power BI file and dashboard":
             file_name="data_science_salaries_project.pbix",
             mime="application/octet-stream"
         )
+
